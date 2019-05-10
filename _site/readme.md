@@ -7,7 +7,7 @@
     <h4>An IOS/android app using React Native. This app allows school PTAs to use Firebase to store school information so the need for updates will be minimal.  The app also uses Expo to send users notifications.</h4>
     <ul>
       <li class="mybuttons"><a class="mybuttons" href="https://github.com/efl7a/BESCalendar">GitHub Repo</a></li>
-      <li class="mybuttons"><a class="mybuttons" href="https://efl7a/github.io/BESCalendar">Project Information</a></li>
+      <li class="mybuttons"><a class="mybuttons" href="https://efl7a.github.io/BESCalendar/">Project Information</a></li>
     </ul>
   </li>
   <li>
