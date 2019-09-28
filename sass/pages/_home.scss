@@ -12,20 +12,3 @@
     text-align: center;
   }
 }
-
-.section-features {
-  padding: 10rem 0;
-  background-image: linear-gradient(
-    to right bottom,
-    rgba($color-primary-light, 0.7),
-    rgba($color-primary-dark, 0.7)
-    );
-  background-size: cover;
-  background-position: top;
-  transform: skewY(-7deg);
-  margin-top: -30vh;
-
-  & > * {
-    transform: skewY(7deg);
-  }
-}

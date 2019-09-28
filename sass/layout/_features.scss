@@ -1,0 +1,22 @@
+.section-features {
+  padding: 10rem 0;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($color-primary-light, 0.7),
+    rgba($color-primary-dark, 0.7)
+    );
+  background-size: cover;
+  background-position: top;
+  transform: skewY(-5deg);
+  margin-top: 5rem;
+
+  &--heading {
+    text-align: center;
+    font-size: 3rem;
+    color: $color-white;
+  }
+
+  & > * {
+    transform: skewY(5deg);
+  }
+}

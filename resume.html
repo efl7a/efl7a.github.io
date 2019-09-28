@@ -7,7 +7,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="/css/icon-font.css">
+        <link rel="stylesheet" href="css/icon-font.css">
         <title>Heather Christman Resume</title>
     </head>
     <body>
@@ -24,45 +24,59 @@
           </div>
         </header>
         <main>
-          <section>
-            <div class="section-contact">
+          <section class="section-contact">
+            <div class="row">
               <div class="col-1-of-3">
-                <div class="contact--phone">
+                <div class="contact-info">
+                  <i class="contact-info--icon icon-basic-smartphone"></i>
+                  <p class="contact-info--text">979-248-0200</p>
+                </div>
+              </div>
 
+              <div class="col-1-of-3">
+                <div class="contact-info">
+                  <i class="contact-info--icon icon-basic-mail"></i>
+                  <p class="contact-info--text">efl7acode@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="col-1-of-3">
+                <div class="contact-info">
+                  <i class="contact-info--icon icon-basic-compass"></i>
+                  <p class="contact-info--text">Charlotte, North Carolina</p>
                 </div>
               </div>
             </div>
           </section>
-          <section class="section-education">
+          <section class="section-features">
+            <h3 class="section-features--heading u-margin-bottom-small">Education</h3>
             <div class="row">
               <div class="col-1-of-3">
                 <div class="feature-box">
-                  <i class="feature-box__icon icon-basic-world"></i>
-                  <h3 class="heading-tertiary u-margin-bottom-small">PTA Mobile App</h3>
-                  <p class="feature-box__text u-margin-bottom-small">An IOS/android app using React Native. This app allows school PTAs to use Firebase to store school information so the need for updates will be minimal.  The app also uses Expo to send users notifications.</p>
-                  <a href="https://github.com/efl7a/BESPTA" class="btn btn--purple btn--animated">
-                    GitHub Repository
-                  </a>
+                  <h3 class="feature-box--heading">University</h3>
+                  <p class="feature-box--text">Bachelor of Science in Chemical Engineering, Magna Cum Laude</p>
+                  <p class="feature-box--text">University of Tennessee, Knoxville</p>
+                  <p class="feature-box--text">1992 - 1997</p>
                 </div>
               </div>
+
               <div class="col-1-of-3">
                 <div class="feature-box">
-                  <i class="feature-box__icon icon-basic-compass"></i>
-                  <h3 class="heading-tertiary u-margin-bottom-small">Come On In</h3>
-                  <p class="feature-box__text u-margin-bottom-small">A web app for schools to keep track of before/after school groups using RoR backend and JS frontend.  It allows teachers to create study groups and students to sign up for them.  It also allows administration to print out a master list of all students that are expected to be on campus before or after school hours.</p>
-                  <a href="https://github.com/efl7a/come-on-in-with-js" class="btn btn--purple btn--animated">
-                    GitHub Repository
-                  </a>
+                  <h3 class="feature-box--heading">Coding Courses</h3>
+                  <p class="feature-box--text">Flatiron Community Based Bootcamp</p>
+                  <p class="feature-box--text u-margin-bottom-small">2017- 2018</p>
+                  <p class="feature-box--text">Udemy: React Native, Advance React and Redux, Swift, Advanced CSS/Sass</p>
+                  <p class="feature-box--text">2018 - present</p>
                 </div>
               </div>
+
               <div class="col-1-of-3">
                 <div class="feature-box">
-                  <i class="feature-box__icon icon-basic-map"></i>
-                  <h3 class="heading-tertiary u-margin-bottom-small">Queen City Rezoning</h3>
-                  <p class="feature-box__text u-margin-bottom-small">This is a web app that allows users to search rezoning requests for Charlotte, NC.  It also allows users to comment on those requests.</p>
-                  <a href="https://github.com/efl7a/queen-city-rezoning" class="btn btn--purple btn--animated">
-                    GitHub Repository
-                  </a>
+                  <h3 class="feature-box--heading">Certificates</h3>
+                  <p class="feature-box--text">Texas Elementary Education</p>
+                  <p class="feature-box--text u-margin-bottom-small">1999 - 2001</p>
+                  <p class="feature-box--text">Cambridge University CELTA Program</p>
+                  <p class="feature-box--text">2004</p>
                 </div>
               </div>
             </div>

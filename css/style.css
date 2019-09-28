@@ -176,7 +176,7 @@ body {
     transform: scale(0.95); }
 
 .feature-box {
-  color: #777;
+  color: #8860D0;
   background-color: rgba(255, 255, 255, 0.6);
   font-size: 1.5rem;
   padding: 2.5rem;
@@ -233,6 +233,20 @@ body {
     left: 2%;
     text-align: left; }
 
+.section-features {
+  padding: 10rem 0;
+  background-image: linear-gradient(to right bottom, rgba(132, 206, 235, 0.7), rgba(86, 128, 233, 0.7));
+  background-size: cover;
+  background-position: top;
+  transform: skewY(-5deg);
+  margin-top: 5rem; }
+  .section-features--heading {
+    text-align: center;
+    font-size: 3rem;
+    color: #fff; }
+  .section-features > * {
+    transform: skewY(5deg); }
+
 .section-resume {
   padding: 20rem 0;
   margin-top: -20vh;
@@ -245,12 +259,10 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
 
-.section-features {
-  padding: 10rem 0;
-  background-image: linear-gradient(to right bottom, rgba(132, 206, 235, 0.7), rgba(86, 128, 233, 0.7));
-  background-size: cover;
-  background-position: top;
-  transform: skewY(-7deg);
-  margin-top: -30vh; }
-  .section-features > * {
-    transform: skewY(7deg); }
+.contact-info {
+  color: #8860D0;
+  font-size: 2rem; }
+  .contact-info--icon {
+    padding-right: 1rem; }
+  .contact-info--text {
+    display: inline; }
