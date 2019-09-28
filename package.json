@@ -1,7 +1,7 @@
 {
   "name": "efl7a",
   "version": "1.0.0",
-  "description": "<h1><a class=\"mybuttons\" href=\"https://efl7a.github.io/Resume/\">Resume</a></h1>",
+  "description": "Christman Resume and Portfolio",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
