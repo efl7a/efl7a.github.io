@@ -1,0 +1,19 @@
+.header {
+  height: 40vh;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($color-primary-light, 0.6),
+    rgba($color-primary-dark, 0.6)
+    );
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 20vh, 100% 20vh, 0 100%);
+  position: relative;
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    text-align: left;
+  }
+}
