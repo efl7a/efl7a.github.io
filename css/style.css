@@ -248,13 +248,13 @@ body {
     transform: skewY(5deg); }
 
 .section-resume {
-  padding: 20rem 0;
-  margin-top: -20vh;
+  padding: 0 0 3rem 0;
+  margin-top: -2vh;
   position: relative; }
   .section-resume--btn {
     margin: 0 auto;
     position: absolute;
-    top: 35%;
+    top: 55%;
     left: 45%;
     transform: translate(-50%, -50%);
     text-align: center; }
