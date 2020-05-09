@@ -1,5 +1,5 @@
 .section-features {
-  padding: 10rem 0;
+  padding: 5rem 0;
   background-image: linear-gradient(
     to right bottom,
     rgba($color-primary-light, 0.7),
@@ -7,7 +7,6 @@
     );
   background-size: cover;
   background-position: top;
-  // transform: skewY(-5deg);
   margin-top: 5rem;
 
   &--heading {
@@ -17,6 +16,9 @@
   }
 
   & > * {
-    transform: skewY(5deg);
+  }
+
+  @include mobile {
+    padding: 3rem;
   }
 }

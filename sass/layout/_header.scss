@@ -15,5 +15,14 @@
     top: 40%;
     left: 2%;
     text-align: left;
+
+    @include mobile {
+      top: 25%;
+    }
+  }
+
+  @include mobile {
+    height: 25vh;
+    clip-path: none;
   }
 }

@@ -4,9 +4,17 @@
 
   &:not(:last-child) {
     margin-bottom: $gutter-vertical;
+
+    @include mobile {
+      margin-bottom: 0;
+    }
   }
 
   @include clearfix;
+
+  @include mobile {
+    max-width: 90%;
+  }
 
   [class^="col"] {
     float: left;
@@ -21,6 +29,11 @@
 
   .col-1-of-3 {
     width: calc((100% - #{$gutter-horizontal} * 2) / 3);
+
+    @include mobile {
+      width: 100%;
+      margin-bottom: 3rem;
+    }
   }
 
   .col-2-of-3 {
