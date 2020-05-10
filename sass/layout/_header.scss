@@ -17,12 +17,18 @@
     text-align: left;
 
     @include mobile {
-      top: 25%;
+      top: 35%;
+
     }
   }
 
   @include mobile {
-    height: 25vh;
+    height: 20vh;
     clip-path: none;
+    background-image: linear-gradient(
+      to right,
+      rgba($color-primary-light, 0.6),
+      rgba($color-primary-dark, 0.6)
+      );
   }
 }
