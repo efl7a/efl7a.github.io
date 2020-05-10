@@ -17,13 +17,13 @@
     text-align: left;
 
     @include mobile {
-      top: 35%;
-
+      top: 25%;
+      margin-left: 1rem;
     }
   }
 
   @include mobile {
-    height: 20vh;
+    height: 30vh;
     clip-path: none;
     background-image: linear-gradient(
       to right,

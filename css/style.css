@@ -48,12 +48,18 @@ body {
   line-height: 1.7;
   color: #777;
   padding: 3rem; }
+  @media only screen and (max-width: 75em) {
+    body {
+      padding: 0; } }
 
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
+  @media only screen and (max-width: 75em) {
+    .heading-primary {
+      margin-bottom: 3rem; } }
   .heading-primary--main {
     display: block;
     font-size: 3rem;
@@ -62,12 +68,21 @@ body {
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out; }
+    @media only screen and (max-width: 75em) {
+      .heading-primary--main {
+        font-size: 2rem;
+        letter-spacing: 1.5rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 1.75rem;
     animation: moveInRight 1s ease-out; }
+    @media only screen and (max-width: 75em) {
+      .heading-primary--sub {
+        font-size: 1.5;
+        font-weight: 400;
+        letter-spacing: 0.5rem; } }
 
 .heading-secondary {
   font-size: 2rem;
@@ -227,7 +242,7 @@ body {
     @media only screen and (max-width: 75em) {
       .row .col-1-of-3 {
         width: 100%;
-        margin-bottom: 3rem; } }
+        margin-bottom: 2rem; } }
   .row .col-2-of-3 {
     width: calc(2 * ((100% - 6rem * 2) / 3) + 6rem); }
   .row .col-1-of-4 {
@@ -251,10 +266,11 @@ body {
     text-align: left; }
     @media only screen and (max-width: 75em) {
       .header__text-box {
-        top: 35%; } }
+        top: 25%;
+        margin-left: 1rem; } }
   @media only screen and (max-width: 75em) {
     .header {
-      height: 20vh;
+      height: 30vh;
       clip-path: none;
       background-image: linear-gradient(to right, rgba(132, 206, 235, 0.6), rgba(86, 128, 233, 0.6)); } }
 
@@ -270,7 +286,8 @@ body {
     color: #fff; }
   @media only screen and (max-width: 75em) {
     .section-features {
-      padding: 3rem; } }
+      padding: 3rem;
+      margin-top: 3rem; } }
 
 .section-resume {
   padding: 0 0 3rem 0;
@@ -279,8 +296,8 @@ body {
   .section-resume--btn {
     margin: 0 auto;
     position: absolute;
-    top: 55%;
-    left: 45%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
     @media only screen and (max-width: 75em) {
@@ -292,10 +309,11 @@ body {
     .section-resume {
       margin-top: 4vh; } }
 
-@media only screen and (max-width: 75em) {
-  .section-contact {
-    background-image: linear-gradient(to right, rgba(132, 206, 235, 0.6), rgba(86, 128, 233, 0.6));
-    background-size: cover; } }
+.section-contact {
+  margin-top: 1rem; }
+  @media only screen and (max-width: 75em) {
+    .section-contact {
+      text-align: center; } }
 
 .contact-info {
   color: #8860D0;
@@ -304,6 +322,3 @@ body {
     padding-right: 1rem; }
   .contact-info--text {
     display: inline; }
-  @media only screen and (max-width: 75em) {
-    .contact-info {
-      color: #fff; } }
