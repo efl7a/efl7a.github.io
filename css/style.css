@@ -48,7 +48,7 @@ body {
   line-height: 1.7;
   color: #777;
   padding: 3rem; }
-  @media only screen and (max-width: 75em) {
+  @media only screen and (max-width: 56.25em) {
     body {
       padding: 0; } }
 
@@ -57,7 +57,7 @@ body {
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
-  @media only screen and (max-width: 75em) {
+  @media only screen and (max-width: 56.25em) {
     .heading-primary {
       margin-bottom: 3rem; } }
   .heading-primary--main {
@@ -68,7 +68,7 @@ body {
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out; }
-    @media only screen and (max-width: 75em) {
+    @media only screen and (max-width: 56.25em) {
       .heading-primary--main {
         font-size: 2rem;
         letter-spacing: 1.5rem; } }
@@ -78,7 +78,7 @@ body {
     font-weight: 700;
     letter-spacing: 1.75rem;
     animation: moveInRight 1s ease-out; }
-    @media only screen and (max-width: 75em) {
+    @media only screen and (max-width: 56.25em) {
       .heading-primary--sub {
         font-size: 1.5;
         font-weight: 400;
@@ -201,6 +201,13 @@ body {
   transition: all .2s; }
   .feature-box:hover {
     transform: scale(1.05) translateY(-1.5rem); }
+  .feature-box__cell-1-of-3 {
+    display: inline-block;
+    width: 33%; }
+    @media only screen and (max-width: 56.25em) {
+      .feature-box__cell-1-of-3 {
+        display: block;
+        width: 100%; } }
   .feature-box__icon {
     font-size: 6rem;
     margin-bottom: .5rem;
@@ -212,7 +219,7 @@ body {
 .blank {
   background-color: inherit;
   box-shadow: 0 0 0; }
-  @media only screen and (max-width: 75em) {
+  @media only screen and (max-width: 56.25em) {
     .blank {
       display: none; } }
 
@@ -221,14 +228,14 @@ body {
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
-    @media only screen and (max-width: 75em) {
+    @media only screen and (max-width: 56.25em) {
       .row:not(:last-child) {
         margin-bottom: 0; } }
   .row::after {
     content: "";
     display: table;
     clear: both; }
-  @media only screen and (max-width: 75em) {
+  @media only screen and (max-width: 56.25em) {
     .row {
       max-width: 90%; } }
   .row [class^="col"] {
@@ -237,14 +244,22 @@ body {
       margin-right: 6rem; }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
+    @media only screen and (max-width: 56.25em) {
+      .row .col-1-of-2 {
+        width: 100%;
+        margin-bottom: 2rem; } }
   .row .col-1-of-3 {
     width: calc((100% - 6rem * 2) / 3); }
-    @media only screen and (max-width: 75em) {
+    @media only screen and (max-width: 56.25em) {
       .row .col-1-of-3 {
         width: 100%;
         margin-bottom: 2rem; } }
   .row .col-2-of-3 {
     width: calc(2 * ((100% - 6rem * 2) / 3) + 6rem); }
+    @media only screen and (max-width: 56.25em) {
+      .row .col-2-of-3 {
+        width: 100%;
+        margin-bottom: 2rem; } }
   .row .col-1-of-4 {
     width: calc((100% - 6rem * 3) / 4); }
   .row .col-2-of-4 {
@@ -264,11 +279,11 @@ body {
     top: 40%;
     left: 2%;
     text-align: left; }
-    @media only screen and (max-width: 75em) {
+    @media only screen and (max-width: 56.25em) {
       .header__text-box {
         top: 25%;
         margin-left: 1rem; } }
-  @media only screen and (max-width: 75em) {
+  @media only screen and (max-width: 56.25em) {
     .header {
       height: 30vh;
       clip-path: none;
@@ -284,7 +299,7 @@ body {
     text-align: center;
     font-size: 3rem;
     color: #fff; }
-  @media only screen and (max-width: 75em) {
+  @media only screen and (max-width: 56.25em) {
     .section-features {
       padding: 3rem;
       margin-top: 3rem; } }
@@ -300,18 +315,18 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
-    @media only screen and (max-width: 75em) {
+    @media only screen and (max-width: 56.25em) {
       .section-resume--btn {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%); } }
-  @media only screen and (max-width: 75em) {
+  @media only screen and (max-width: 56.25em) {
     .section-resume {
       margin-top: 4vh; } }
 
 .section-contact {
   margin-top: 1rem; }
-  @media only screen and (max-width: 75em) {
+  @media only screen and (max-width: 56.25em) {
     .section-contact {
       text-align: center; } }
 
